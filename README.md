@@ -1,7 +1,7 @@
 # EEG-Sound-Synthesis
 ________________________________________________________________________________________________________________________________________
 Short Description:
-"This Python script imports EEG data from .tsv and/or .bdf files and uses the measured voltages to generate randomized .wav (sound) files."
+"This Python script imports EEG data from .tsv or .bdf files and uses the measured voltages to generate randomized .wav (sound) files."
 ________________________________________________________________________________________________________________________________________
 
 ~~~ Introduction ~~~
