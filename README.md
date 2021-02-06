@@ -2,19 +2,18 @@
 ________________________________________________________________________________________________________________________________________
 Short Description:
 "This Python script imports EEG data from .tsv or .bdf files and uses the measured voltages to generate randomized .wav sound files."
-________________________________________________________________________________________________________________________________________
 
-________________________________________________________________________________________________________________________________________
+
 ~~~ Introduction ~~~
+
 
 Due to a requirement for my current musicial project, I needed to implement the idea of translating EEG data into sound. 
 As I had just started to learn programming with Python, I decided to let it be my first attempt to program something useful. 
 
 Note: This programm/script is my first programming project using Python. It needs definitely improvement and optimization.
       There aren't any updates planned on this one, but if there is time or feedback, I will try to tweak it!
-________________________________________________________________________________________________________________________________________
 
-________________________________________________________________________________________________________________________________________
+
 ~~~ Background Story ~~~
 
 Initially, I found two promising EEG-datasets on openneuro.org which I then tried to transfer into NumPy arrays.
@@ -31,9 +30,8 @@ When it comes to musicial experimentation and sound exploration, I always love t
 That's why when executing the .py file, amplitude and frequency are randomly picked. 
 So each time running the file, a new unique sound will be created!
 That being said, let's continue with explaining the code:
-________________________________________________________________________________________________________________________________________
 
-________________________________________________________________________________________________________________________________________
+
 ~~~ Explaining The Code ~~~
 
 # Note: Detailed comments and explanations can be found directly in the .py file.
@@ -53,10 +51,7 @@ Depending on the file type, either Pandas or pyedflib will automatically import 
 3) Based on the given parameters "n_layers" and "multiples_max", the function will randomly pick an amplitude from the NumPy array,
    randomly pick a frequency and repeat this process n-times (n_layers).
    These n layers will be expressed as sound in .wav-file using "scipy.io.wavfile".
-________________________________________________________________________________________________________________________________________ 
 
-
-________________________________________________________________________________________________________________________________________
                                                         
                                                         Thank you for reading!
                             
